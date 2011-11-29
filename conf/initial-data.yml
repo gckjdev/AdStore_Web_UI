@@ -1,0 +1,51 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+User(bob):
+    email: bob@gmail.com
+    password: secret
+    fullname: Bob
+  
+
+Product(麦包包):
+    city: 全国
+    loc: http://cl.mbaobao.com/?url=http://mkt.mbaobao.com/a-quality1001/&cps_cpid=1249&cps_adid=493
+    image: http://res.mbbimg.cn/union/201110/11/336x280.gif
+    title: 珍稀之美惊羡腕间！麦包包秋冬奢侈精品手袋诚邀鉴赏精品馆！米兰设计美学与浓郁意式品位渗透，精致牛皮勾勒美妙立体剪影，蛇纹质感长城刺绣东西方文化…秋冬精品手袋诚邀鉴赏@麦包包麦友团
+    startDate: 2011-11-01
+    endDate: 2011-12-01
+    price: 1.3
+    value: 2.3
+    bought: 1
+    siteId: maibaobao
+    siteName: 麦包包
+    siteURL: http://m.mbaobao.com/?&cps_cpid=1249&cps_adid=493
+    
+Product(途牛旅游):
+    city: 全国
+    loc: http://market.tuniu.com/Partner_redirect.php?url=http://chujing.tuniu.com/gangaotai/&p=9623&cmpid=union_9623
+    image: http://www.tuniu.com/icons/pic_adv/ef76b56808e3167230058950406db89420100628095741.jpg
+    title: 购物者的天堂，港澳旅游乐翻天，特价中！
+    startDate: 2011-11-02
+    endDate: 2011-12-02
+    price: 1.2
+    value: 2.2
+    bought: 2
+    siteId: tuniu
+    siteName: 途牛旅游
+    siteURL: http://m.tuniu.com/?&cmpid=union_9623
+
+Product(乐淘):
+    city: 全国
+    loc: http://www.letao.com/lianmeng/manage/linkImage.aspx?wh=300&ht=250&wid=82&sid=lingzhe
+    image: http://www.letao.com/lianmeng/manage/linkImage.aspx?wh=300&ht=250&wid=82
+    title: REKLiM时尚潮鞋，特价99元
+    startDate: 2011-11-03
+    endDate: 2011-12-03
+    price: 1.1
+    value: 2.2
+    bought: 3
+    siteId: letao
+    siteName: 乐淘
+    siteURL: http://m.letao.com/?&sid=lingzhe
+    

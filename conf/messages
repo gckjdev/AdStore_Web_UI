@@ -1,0 +1,15 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+city=City
+loc=Location
+image=Imange
+title=Title
+startDate=Start Date
+endDate=End Date
+price=Price
+value=Value
+bought=Bought
+siteId=Site Id
+siteName=Site Name
+siteURL=Site URL
