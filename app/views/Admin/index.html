@@ -1,0 +1,13 @@
+#{extends 'admin.html' /}
+
+<h3>Welcome ${user}, <span>you have ${products.size() ?: 'no'} ${products.pluralize('product', 'products')} so far</span></h3>
+ 
+#{list items:products, as:'product'}
+    <p class="product ${product_parity}">
+        <a href="@{Admin.form(product.id)}">${product.title}</a>
+    </p>
+#{/list}
+ 
+<p id="newproduct" >
+    <a href="@{form()}"><span>+</span>Create a new product</a>
+</p>

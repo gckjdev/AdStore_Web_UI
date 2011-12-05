@@ -2,6 +2,8 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+# admin page
+GET     /admin/?                                Admin.index
 # Import CRUD routes
 *       /admin                                  module:crud
 
@@ -16,6 +18,13 @@ GET     /favicon.ico                            404
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
+
+# Customized
+GET     /admin/myProducts/{id}                 Admin.form
+GET     /admin/new                          Admin.form
+
+POST    /admin/myProducts/{id}                 Admin.save
+POST    /admin/new                          Admin.save
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
