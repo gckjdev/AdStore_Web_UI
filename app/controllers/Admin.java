@@ -6,6 +6,7 @@ import java.util.Date;
 import java.util.List;
 
 import models.User;
+import play.data.validation.Required;
 import play.mvc.Before;
 import play.mvc.Controller;
 import play.mvc.With;
@@ -31,15 +32,10 @@ public class Admin extends Controller {
 	}
 
 	public static void index() {
-		// List<String> categorys = ProductManager.getAllCategoryNames();
-		List<Product> products = new ArrayList<Product>();
-		String city = "";
-		String category = String.valueOf(DBConstants.C_CATEGORY_UNKNOWN);
-		String maxCount = String.valueOf(Integer.MAX_VALUE);
 		// for (String category : categorys) {
-		List<Product> p = ProductManager.getAllProductsByCategory(mongoClient,
-				city, category, "0", maxCount);
-		products.addAll(p);
+		List<Product> products = ProductManager.getAllProductsWithType(
+				mongoClient, true, DBConstants.C_PRODUCT_TYPE_AD, 0,
+				Integer.MAX_VALUE);
 		// }
 		render(products);
 	}
@@ -52,8 +48,10 @@ public class Admin extends Controller {
 		render();
 	}
 
-	public static void save(String id, String title, String loc, String image,
-			Date startDate, Date endDate, String siteName, String siteURL) {
+	public static void save(String id, @Required String title,
+			@Required String loc, @Required String image,
+			@Required Date startDate, @Required Date endDate,
+			@Required String siteName, @Required String siteUrl) {
 		Product product3 = null;
 		if (id != null) {
 			product3 = ProductManager.findProductById(mongoClient, id);
@@ -63,17 +61,22 @@ public class Admin extends Controller {
 
 		double price = DBConstants.C_PRICE_NA;
 		int type = DBConstants.C_PRODUCT_TYPE_AD;
-		String siteId = "";
-		product3.setMandantoryFields(DBConstants.C_NATIONWIDE, loc, image,
-				title, startDate, endDate, price, price, 0, siteId, siteName,
-				siteURL);
-		product3.setProductType(type);
+		// TODO:
+		String siteId = "DUMMY_SITEID";
 
-		if (id != null) {
-			ProductManager.save(mongoClient, product3);
-		} else {
-			ProductManager.createProduct(mongoClient, product3);
+		boolean validate = product3.setMandantoryFields(
+				DBConstants.C_NATIONWIDE, loc, image, title, startDate,
+				endDate, price, price, 0, siteId, siteName, siteUrl);
+		// TODO: validate before
+		if (validate) {
+			product3.setProductType(type);
+
+			if (id != null) {
+				ProductManager.save(mongoClient, product3);
+			} else {
+				ProductManager.createProduct(mongoClient, product3);
+			}
+			index();
 		}
-		index();
 	}
 }

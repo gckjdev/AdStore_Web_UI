@@ -2,7 +2,7 @@
  
 <h3></h3>
  
-#{form @save()}
+#{form @save(product?.id)}
  
     #{ifErrors}
         <p class="error">
@@ -27,8 +27,8 @@
         <span class="error">#{error 'product.loc' /}</span>
         #{/field}
     </p>
-    
-        <p>
+
+    <p>
         #{field 'image'}
         <label>image:</label>
         <input type="text" name="${field.name}" 
@@ -36,7 +36,7 @@
         <span class="error">#{error 'product.image' /}</span>
         #{/field}
     </p>
-    
+
     <p>
         #{field 'startDate'}
         <label>startDate:</label>
@@ -72,33 +72,9 @@
         <span class="error">#{error 'product.siteUrl' /}</span>
         #{/field}
     </p>
-                
+
     <p>
-        <input type="submit" value="Publish this post to the blog" />
+        <input type="submit" value="Save Product" />
     </p>
     
 #{/form}
-
-<!-- 
-Product(麦包包):
-    city: 全国
-    loc: http://cl.mbaobao.com/?url=http://mkt.mbaobao.com/a-quality1001/&cps_cpid=1249&cps_adid=493
-    image: http://res.mbbimg.cn/union/201110/11/336x280.gif
-    title: 珍稀之美惊羡腕间！麦包包秋冬奢侈精品手袋诚邀鉴赏精品馆！米兰设计美学与浓郁意式品位渗透，精致牛皮勾勒美妙立体剪影，蛇纹质感长城刺绣东西方文化…秋冬精品手袋诚邀鉴赏@麦包包麦友团
-    startDate: 2011-11-01
-    endDate: 2011-12-01
-    price: 1.3
-    value: 2.3
-    bought: 1
-    siteId: maibaobao
-    siteName: 麦包包
-    siteURL: http://m.mbaobao.com/?&cps_cpid=1249&cps_adid=493
-    
-1）产品链接
-3）产品图片URL（需有预览功能，能够简单显示一下图片的宽度和高度，这个用于看产品如何放置）
-3）开始时间（不填写则默认为现在）
-4）结束时间（不填写则默认为现在＋30天）
-5）站点名称
-6）站点URL
-    
- -->
