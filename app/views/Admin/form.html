@@ -1,12 +1,14 @@
 #{extends 'admin.html' /}
  
 <h3></h3>
- 
 #{form @save(product?.id)}
  
     #{ifErrors}
         <p class="error">
             Please correct these errors.
+        #{errors}
+            <li>${error}</li>
+        #{/errors}
         </p>
     #{/ifErrors}
      
@@ -40,7 +42,7 @@
     <p>
         #{field 'startDate'}
         <label>startDate:</label>
-        <input type="text" name="${field.name}" 
+        <input type="text" id="${field.name}" name="${field.name}" 
             value="${product?.startDate?.format('yyyy-MM-dd')}" />
         <span class="error">#{error 'product.startDate' /}</span>
         #{/field}
@@ -49,7 +51,7 @@
     <p>
         #{field 'endDate'}
         <label>endDate:</label>
-        <input type="text" name="${field.name}" 
+        <input type="text" id="${field.name}" name="${field.name}" 
             value="${product?.endDate?.format('yyyy-MM-dd')}" />
         <span class="error">#{error 'product.endDate' /}</span>
         #{/field}
@@ -77,4 +79,27 @@
         <input type="submit" value="Save Product" />
     </p>
     
+    <script type="text/javascript" charset="utf-8">
+    $(function() {         
+        // Expose the form 
+/*         $('form').click(function() { 
+            $('form').expose({api: true}).load(); 
+        }); 
+        
+        // If there is an error, focus to form
+        if($('form.error').size()) {
+            $('form').expose({api: true, loadSpeed: 0}).load(); 
+            $('form input[type=text]').get(0).focus();
+        } */
+        
+        // date picker
+        $( '#startDate' ).datepicker({dateFormat: 'yy-mm-dd'});
+        //$( '#startDate' ).datepicker('option', {dateFormat : 'yy-mm-dd'});
+        //$( '#startDate' ).datepicker('option', {defaultDate : +0} });
+        
+        $( '#endDate' ).datepicker({dateFormat: 'yy-mm-dd'});
+        //$( '#endDate' ).datepicker({ dateFormat: 'yy-mm-dd', defaultDate: +30 });
+        //$( '#endDate' ).datepicker("option", {dateFormat : 'yy-mm-dd', defaultDate : +30 });
+    });
+    </script>
 #{/form}

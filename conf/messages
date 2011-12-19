@@ -1,5 +1,8 @@
 # You can specialize this file for each language.
 # For example, for French create a messages.fr file
+
+# validate
+validation.required=%s is required
 #
 city=City
 loc=Location
@@ -12,4 +15,5 @@ value=Value
 bought=Bought
 siteId=Site Id
 siteName=Site Name
-siteURL=Site URL
+siteUrl=Site URL
+

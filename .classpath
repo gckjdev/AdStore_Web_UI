@@ -6,141 +6,139 @@
 	<classpathentry kind="src" path="morphia-1.2.4"/>
 	<classpathentry kind="src" path="crud"/>
 	<classpathentry kind="src" path="maven-head"/>
-	
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\play-1.2.3.jar" sourcepath="C:/opensource/play/play-1.2.3/framework/src" />
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\antlr-3.2.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\antlr-runtime-3.2.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\aopalliance-1.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\apns-0.1.6.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\avro-1.4.0-cassandra-1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\cassandra-all-0.8.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\cassandra-thrift-0.8.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\commons-cli-1.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\commons-httpclient-3.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\commons-pool-1.5.3.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\Common_Java-1.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\Common_Java_GroupBuy-1.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\concurrentlinkedhashmap-lru-1.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\guava-r08.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\hector-core-0.8.0-1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\high-scale-lib-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\httpclient-4.0.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\httpcore-4.0.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jackson-core-asl-1.4.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jackson-mapper-asl-1.4.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jamm-0.2.2.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jetty-6.1.22.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jetty-continuation-7.3.0.v20110203.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jetty-http-7.3.0.v20110203.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jetty-io-7.3.0.v20110203.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jetty-server-7.3.0.v20110203.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jetty-util-6.1.22.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jetty-util-7.3.0.v20110203.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jline-0.9.94.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\json-lib-2.4-jdk15.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\json-simple-1.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\jul-to-slf4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\libthrift-0.6.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\lucene-core-3.3.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\mongo-java-driver-2.6.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\QWeibo-1.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\servlet-api-2.5-20081211.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\servlet-api-2.5.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\solr-solrj-3.3.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\speed4j-0.5.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\spring-aop-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\spring-asm-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\spring-beans-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\spring-context-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\spring-context-support-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\spring-core-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\spring-expression-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\spring-oxm-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\stax-api-1.0.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\stringtemplate-3.2.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\uuid-3.2.0.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\weibo4j-20110610.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\wstx-asl-3.2.7.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\lib\zookeeper-3.3.1.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\modules\morphia-1.2.4\lib\mongo-2.6.5a.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\modules\morphia-1.2.4\lib\morphia-1.00-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:\work\tc\gckj\AdStore_Web_UI\modules\morphia-1.2.4\lib\play-morphia.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\activation-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\asm-all-3.3.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\async-http-client-1.6.3.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\bcprov-jdk15-1.45.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\c3p0-0.9.1.2.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\cglib-nodep-2.2.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-beanutils-1.8.3.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-codec-1.4.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-collections-3.2.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-email-1.2.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-fileupload-1.2.2.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-io-2.0.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-javaflow-1066591.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-lang-2.6.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\ehcache-core-2.0.0.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\ezmorph-1.0.3.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\geronimo-servlet_2.5_spec-1.2.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\groovy-all-1.7.7.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\gson-1.7.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\h2-1.3.149.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\hibernate-commons-annotations-3.2.0.Final.jar">
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/play-1.2.3.jar" sourcepath="C:/opensource/play/play-1.2.3/framework/src"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/antlr-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/antlr-runtime-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/apns-0.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/avro-1.4.0-cassandra-1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/cassandra-all-0.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/cassandra-thrift-0.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/commons-pool-1.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/Common_Java-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/Common_Java_GroupBuy-1.0-SNAPSHOT.jar" sourcepath="/Common_Java_GroupBuy"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/concurrentlinkedhashmap-lru-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/guava-r08.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/hector-core-0.8.0-1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/high-scale-lib-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jackson-core-asl-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jackson-mapper-asl-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jamm-0.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jetty-6.1.22.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jetty-continuation-7.3.0.v20110203.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jetty-http-7.3.0.v20110203.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jetty-io-7.3.0.v20110203.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jetty-server-7.3.0.v20110203.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jetty-util-6.1.22.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jetty-util-7.3.0.v20110203.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jline-0.9.94.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/jul-to-slf4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/libthrift-0.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/lucene-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/mongo-java-driver-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/QWeibo-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/solr-solrj-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/speed4j-0.5.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/spring-aop-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/spring-asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/spring-beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/spring-context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/spring-context-support-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/spring-core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/spring-expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/spring-oxm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/stringtemplate-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/uuid-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/weibo4j-20110610.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/wstx-asl-3.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/lib/zookeeper-3.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/modules/morphia-1.2.4/lib/mongo-2.6.5a.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/modules/morphia-1.2.4/lib/morphia-1.00-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/work/tc/gckj/AdStore_Web_UI/modules/morphia-1.2.4/lib/play-morphia.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/asm-all-3.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/async-http-client-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/bcprov-jdk15-1.45.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-email-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-javaflow-1066591.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/ehcache-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/geronimo-servlet_2.5_spec-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/groovy-all-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/gson-1.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/h2-1.3.149.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/hibernate-commons-annotations-3.2.0.Final.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="http://docs.jboss.org/hibernate/annotations/3.5/api/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\hibernate-core-3.6.1.Final.jar">
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/hibernate-core-3.6.1.Final.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="http://docs.jboss.org/hibernate/core/3.6/javadocs/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\hibernate-entitymanager-3.6.0.Final.jar">
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/hibernate-entitymanager-3.6.0.Final.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="http://docs.jboss.org/hibernate/entitymanager/3.6/javadocs/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\hibernate-jpa-2.0-api-1.0.0.Final.jar">
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/hibernate-jpa-2.0-api-1.0.0.Final.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="http://download.oracle.com/javaee/6/api/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\ivy-2.2.0.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jamon-2.7.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\javassist-3.9.0.GA.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\javax.inject-1.0.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jaxen-1.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jj-imaging.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jj-simplecaptcha.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jj-textile.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jj-wikitext.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\joda-time-1.6.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jregex-1.2_01.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jsr107cache-1.0.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\jta-1.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\junit-4.8.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\log4j-1.2.15.jar">
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/ivy-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jamon-2.7.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/javax.inject-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jaxen-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jj-imaging.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jj-simplecaptcha.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jj-textile.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jj-wikitext.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/joda-time-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jregex-1.2_01.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jsr107cache-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/junit-4.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/log4j-1.2.15.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="http://logging.apache.org/log4j/1.2/apidocs/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\mail-1.4.3.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\memcached-2.6.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\mysql-connector-java-5.1.13.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\netty-3.2.4.Final.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\org.eclipse.jdt.core-3.6.0.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\oval-1.50.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\postgresql-9.0.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\signpost-core-1.2.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\slf4j-log4j12-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\snakeyaml-1.7.jar"/>
-	<classpathentry kind="lib" path="C:\opensource\play\play-1.2.3\framework\lib\xstream-1.3.jar"/>
-	
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/mail-1.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/memcached-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/mysql-connector-java-5.1.13.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/netty-3.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/org.eclipse.jdt.core-3.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/oval-1.50.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/postgresql-9.0.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/signpost-core-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/snakeyaml-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/opensource/play/play-1.2.3/framework/lib/xstream-1.3.jar"/>
 	<classpathentry kind="output" path="eclipse/classes"/>
 </classpath>

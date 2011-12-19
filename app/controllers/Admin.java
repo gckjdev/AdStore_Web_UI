@@ -1,18 +1,18 @@
 package controllers;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
 import models.User;
+import net.sf.oval.constraint.Future;
+import play.data.validation.InFuture;
 import play.data.validation.Required;
 import play.mvc.Before;
 import play.mvc.Controller;
 import play.mvc.With;
 
 import com.orange.common.mongodb.MongoDBClient;
-import com.orange.common.utils.DateUtil;
 import com.orange.groupbuy.constant.DBConstants;
 import com.orange.groupbuy.dao.Product;
 import com.orange.groupbuy.manager.ProductManager;
@@ -32,51 +32,81 @@ public class Admin extends Controller {
 	}
 
 	public static void index() {
-		// for (String category : categorys) {
 		List<Product> products = ProductManager.getAllProductsWithType(
-				mongoClient, true, DBConstants.C_PRODUCT_TYPE_AD, 0,
+				mongoClient, DBConstants.C_PRODUCT_TYPE_AD, true, 0,
 				Integer.MAX_VALUE);
-		// }
 		render(products);
 	}
 
 	public static void form(String id) {
+		Product product = new Product();
+		product.setStartDate(getStartDateDefault());
+		product.setEndDate(getEndDateDefault());
 		if (id != null) {
-			Product product = ProductManager.findProductById(mongoClient, id);
-			render(product);
+			 product = ProductManager.findProductById(mongoClient, id);
 		}
-		render();
+		render(product);
 	}
 
 	public static void save(String id, @Required String title,
 			@Required String loc, @Required String image,
 			@Required Date startDate, @Required Date endDate,
 			@Required String siteName, @Required String siteUrl) {
-		Product product3 = null;
+		Product product = null;
 		if (id != null) {
-			product3 = ProductManager.findProductById(mongoClient, id);
+			product = ProductManager.findProductById(mongoClient, id);
 		} else {
-			product3 = new Product();
+			product = new Product();
+			product.setTitle(title);
+			product.setLoc(loc);
+			product.setImage(image);
+			product.setStartDate(startDate);
+			product.setEndDate(endDate);
+			product.setSiteName(siteName);
+			product.setSiteUrl(siteUrl);
 		}
 
+		//TODO:
+		if(endDate.before(startDate)){
+			validation.addError("endDate", "end date should be later than start date");
+		}
+		//validate
+		if (validation.hasErrors()) {
+			render("@form", product);
+		}
 		double price = DBConstants.C_PRICE_NA;
 		int type = DBConstants.C_PRODUCT_TYPE_AD;
 		// TODO:
 		String siteId = "DUMMY_SITEID";
 
-		boolean validate = product3.setMandantoryFields(
+		boolean validate = product.setMandantoryFields(
 				DBConstants.C_NATIONWIDE, loc, image, title, startDate,
 				endDate, price, price, 0, siteId, siteName, siteUrl);
-		// TODO: validate before
 		if (validate) {
-			product3.setProductType(type);
+			product.setProductType(type);
 
 			if (id != null) {
-				ProductManager.save(mongoClient, product3);
+				ProductManager.save(mongoClient, product);
 			} else {
-				ProductManager.createProduct(mongoClient, product3);
+				ProductManager.createProduct(mongoClient, product);
 			}
 			index();
+		}else{			
+			// TODO: what if failed.
 		}
+	}
+
+	private static Date getEndDateDefault() {
+		Date endDate;
+		Calendar cal = Calendar.getInstance();
+		cal.add(Calendar.DATE, 30);
+		endDate = cal.getTime();
+		return endDate;
+	}
+
+	private static Date getStartDateDefault() {
+		Date startDate;
+		startDate = new Date();
+		return startDate;
 	}
 }

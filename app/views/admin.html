@@ -3,12 +3,18 @@
     <head>
         <title>Administration</title>		
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        #{get 'moreStyles' /}	
+        #{get 'moreStyles' /}
         <link rel="stylesheet" type="text/css" media="screen" 
                 href="@{'/public/stylesheets/main.css'}" />
+        <link rel="stylesheet" type="text/css" 
+                href="@{'/public/stylesheets/smoothness/jquery-ui-1.8.16.custom.css'}" />
+                
         <link rel="shortcut icon" type="image/png" 
                 href="@{'/public/images/favicon.png'}" />
-        <script src="@{'/public/javascripts/jquery-1.5.2.min.js'}"></script>
+        <script src="@{'/public/javascripts/jquery-1.6.2.min.js'}"></script>
+        <script src="@{'/public/javascripts/jquery-ui-1.8.16.custom.min.js'}"></script>
+        <script src="@{'/public/javascripts/jquery.ui.datepicker-zh-CN.js'}"></script>
+        
     </head>
     <body id="admin">
         
@@ -25,13 +31,10 @@
         
         <div id="main">
     <ul id="adminMenu">
+        #{secure.check 'admin'}
         <li class="${request.controller == 'Admin' ? 'selected' : ''}">
             <a href="@{Admin.index()}">My products</a>
         </li>
-        #{secure.check 'admin'}
-            <li class="${request.controller == 'Products' ? 'selected' : ''}">
-                <a href="@{Products.list()}">Products</a>
-            </li>
         #{/secure.check}
     </ul>
             #{doLayout /} 
@@ -41,6 +44,5 @@
             built with the 
             <a href="http://www.playframework.org">Play framework</a>
         </p>
-        
     </body>
 </html>
